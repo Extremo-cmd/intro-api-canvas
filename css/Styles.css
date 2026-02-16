@@ -1,0 +1,16 @@
+/* ==========================================================
+   Estilos para el canvas
+   Se personaliza el canvas con esquinas redondeadas,
+   sombra, borde café oscuro y fondo café claro
+   ========================================================== */
+
+#lienzo {
+    background-color: #d2b48c;   /* café claro (tan) */
+    border: 3px solid #4e342e;   /* café oscuro */
+    border-radius: 30px;         /* orillas redondeadas */
+    
+    /* Sombra alrededor del canvas */
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.4);
+
+    display: block;              /* elimina espacios extra */
+}
